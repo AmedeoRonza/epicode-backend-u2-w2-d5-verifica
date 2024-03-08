@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace Albergo.Controllers
 {
+    [Authorize]
     public class ClientiController : Controller
     {
         // GET: Clienti

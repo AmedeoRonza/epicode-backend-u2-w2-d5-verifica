@@ -10,7 +10,6 @@ namespace Albergo.Models
         public int IdCamera { get; set; }
         public string Numero { get; set; }
         public string Tipo { get; set; }
-        public string Descrizione { get; set; }
         public int IdCliente { get; set; }
     }
 }
