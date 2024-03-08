@@ -10,8 +10,12 @@ namespace Albergo.Models
     {
         [Key]
         public int IdServizio { get; set; }
+        [Required(ErrorMessage = "Campo Obbligatorio")]
         public string Descrizione { get; set; }
+        [Required(ErrorMessage = "Campo Obbligatorio")]
+        [Display(Name = "Prezzo in €")]
         public decimal Prezzo { get; set; }
+        [Required(ErrorMessage = "Campo Obbligatorio")]
         public int IdCliente { get; set; }
     }
 }
